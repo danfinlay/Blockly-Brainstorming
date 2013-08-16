@@ -2,7 +2,10 @@
 
 *These initial comments are related not to Blockly proper, but to node-blockly-editor, a branch that aspires to translate not only blockly to javascript but javascript to blockly.*
 
-The current program looks intimidating.
+The current program looks intimidating.  Part of this is because blocks never spill to the next line, creating serious horizontal leakage.  Here's one simple core improvement Blockly could use:
+
+![Spillover blocks](img/overflow-idea.gif)
+
 
 Much of it comes from the complexity of representing Javascript's full syntax.  It's an interesting proof of concept, but will no doubt require more massaging than I'm likely to commit to make it really smooth and fun for newcomers.
 
