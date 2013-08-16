@@ -36,8 +36,4 @@ In this example, I fantasize that someone adds the ability to provide scoped var
 
 Of course, for simplicity, synchronous blocks could be the first round.
 
-##Blockly-specific notes:
-
-Is there a way to make spillover blocks?
-
-![Spillover block](img/overflow-idea.gif)
+I'm working on simply getting Blockly up and running for right now, but I pretty much think this is the direction I'll be leaning.
