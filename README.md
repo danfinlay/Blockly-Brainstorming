@@ -6,7 +6,6 @@ The current program looks intimidating.  Part of this is because blocks never sp
 
 ![Spillover blocks](img/overflow-idea.gif)
 
-
 Much of it comes from the complexity of representing Javascript's full syntax.  It's an interesting proof of concept, but will no doubt require more massaging than I'm likely to commit to make it really smooth and fun for newcomers.
 
 When inventing Node.js, nobody said we needed to make sure we can import Ruby before we move forward.  Instead, Node was given NPM, an easy and fun way for people to contribute and share chunks of logic.
@@ -15,7 +14,7 @@ All NPM does is define a common syntax for wrapping up code to be used by others
 
 While the benefits of importing javascript to blockly could be powerful, without legibility and ease of entry, I would have to seriously question who the program was built for.  Blocks by their very nature are for non-programmers, so that's who we have to keep in mind.
 
-This leads me to consider I have to consider the merits that might be explored by simply building an NPM for Blockly.
+This leads me to consider the merits that might be explored by simply building an NPM for Blockly.
 
 ##Blockly Package Manager
 
